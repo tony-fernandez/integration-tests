@@ -5,6 +5,14 @@ pipeline {
         jdk 'jdk11'
     }
     stages {
+        stage("Initialise") {
+            steps {
+                sh '''
+                   echo "PATH = ${PATH}"
+                   echo "M2_HOME = ${M2_HOME}"
+                '''
+            }
+        }
         stage("Build Maven") {
             steps {
                 sh 'mvn -B clean package'
