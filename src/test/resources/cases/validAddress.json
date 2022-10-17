@@ -1,0 +1,8 @@
+{
+  "deliveryFirstName": "Max",
+  "deliveryLastName": "Mustermann",
+  "address": "Musterstraße",
+  "streetNumber": "42",
+  "city": "Musterstadt",
+  "zipcode": "04242"
+}

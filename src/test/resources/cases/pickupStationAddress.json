@@ -1,0 +1,8 @@
+{
+  "pickupStation": "1234",
+  "postNum": "56789",
+  "deliveryFirstName": "Jon",
+  "deliveryLastName": "Test",
+  "city": "MyCity",
+  "zipcode": "12345"
+}
